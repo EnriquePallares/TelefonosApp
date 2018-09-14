@@ -39,4 +39,5 @@
     <string name="reporteCuatro">Report 4</string>
     <string name="reporteCinco">Report 5</string>
     <string name="mensajeReporte4">Cellphone Quantity</string>
+    <string name="mensajeReporte5">Average</string>
 </resources>

@@ -17,7 +17,7 @@ public class ReporteCinco extends AppCompatActivity {
         setContentView(R.layout.activity_reporte_cinco);
 
         dialog = new AlertDialog.Builder(this);
-        dialog.setTitle(getResources().getString(R.string.reporteCuatro));
+        dialog.setTitle(getResources().getString(R.string.reporteCinco));
 
         celulares = Datos.obtener();
         int cantidad = 0;
@@ -30,6 +30,6 @@ public class ReporteCinco extends AppCompatActivity {
             }
         }
 
-        dialog.setMessage(getResources().getString(R.string.reporteCinco)+": "+(sumatoria/cantidad)).show();
+        dialog.setMessage(getResources().getString(R.string.mensajeReporte5)+": "+(sumatoria/cantidad)).show();
     }
 }
