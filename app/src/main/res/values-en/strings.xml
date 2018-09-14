@@ -40,4 +40,5 @@
     <string name="reporteCinco">Report 5</string>
     <string name="mensajeReporte4">Cellphone Quantity</string>
     <string name="mensajeReporte5">Average</string>
+    <string name="errDatosVacios">No data to evaluate</string>
 </resources>

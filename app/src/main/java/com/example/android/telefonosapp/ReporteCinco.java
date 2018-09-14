@@ -29,7 +29,11 @@ public class ReporteCinco extends AppCompatActivity {
                 cantidad++;
                 sumatoria += celulares.get(i).getPrecio();
             }
+        }
+        if (cantidad > 0) {
             dialog.setMessage(getResources().getString(R.string.mensajeReporte5) + ": " + (sumatoria / cantidad)).show();
+        } else {
+            dialog.setMessage(getResources().getString(R.string.errDatosVacios)).show();
         }
     }
 }

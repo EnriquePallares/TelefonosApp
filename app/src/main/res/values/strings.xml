@@ -44,6 +44,7 @@
     <string name="windows">Windows Phone</string>
     <string name="mensajeReporte4">Cantidad de celulares</string>
     <string name="mensajeReporte5">Promedio</string>
+    <string name="errDatosVacios">No hay datos a evaluar</string>
 
     <string-array name="opciones">
         <item>@string/registrar</item>

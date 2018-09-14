@@ -29,6 +29,10 @@ public class ReporteCuatro extends AppCompatActivity {
                 cantidad++;
             }
         }
-        dialog.setMessage(getResources().getString(R.string.mensajeReporte4)+": "+cantidad).show();
+        if (cantidad > 0) {
+            dialog.setMessage(getResources().getString(R.string.mensajeReporte4) + ": " + cantidad).show();
+        } else {
+            dialog.setMessage(getResources().getString(R.string.errDatosVacios)).show();
+        }
     }
 }
