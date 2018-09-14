@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TelefonosApp</string>
+    <string name="titulo">Registro de celulares</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="capacidad">Capacidad de RAM</string>
+    <string name="sistOpe">Sistema Operativo</string>
+    <string name="registrar">Registrar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mensaje">Celular registrado satisfactoriamente</string>
+
+    <string name="samsung">Samsung</string>
+    <string name="apple">Apple</string>
+    <string name="nokia">Nokia</string>
+    <string name="huawei">Huawei</string>
+    
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+
+    <string name="dosGB">2GB</string>
+    <string name="cuatroGB">4GB</string>
+
+    <string name="android">Android</string>
+    <string name="iOS">iOS</string>
+    <string name="windows">Windows Phone</string>
+
+    <string-array name="opMarcas">
+        <item>@string/apple</item>
+        <item>@string/huawei</item>
+        <item>@string/nokia</item>
+        <item>@string/samsung</item>
+    </string-array>
+    <string-array name="opColores">
+        <item>@string/blanco</item>
+        <item>@string/negro</item>
+    </string-array>
+    <string-array name="opCapacidades">
+        <item>@string/dosGB</item>
+        <item>@string/cuatroGB</item>
+    </string-array>
+    <string-array name="opSistemas">
+        <item>@string/android</item>
+        <item>@string/iOS</item>
+        <item>@string/windows</item>
+    </string-array>
+</resources>
