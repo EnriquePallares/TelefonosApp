@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TelefonosApp</string>
+    <string name="app_name">CellphonesApp</string>
     <string name="titulo">Cellphone registration</string>
     <string name="marca">Brand</string>
     <string name="color">Color</string>
