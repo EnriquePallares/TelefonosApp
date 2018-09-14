@@ -22,14 +22,15 @@ public class ReporteCinco extends AppCompatActivity {
         celulares = Datos.obtener();
         int cantidad = 0;
         int sumatoria = 0;
-
-        for (int i = 0; i < celulares.size(); i++) {
-            if (celulares.get(i).getMarca().equalsIgnoreCase("Nokia")){
-                cantidad++;
-                sumatoria += celulares.get(i).getPrecio();
+        
+        while (cantidad > 0) {
+            for (int i = 0; i < celulares.size(); i++) {
+                if (celulares.get(i).getMarca().equalsIgnoreCase("Nokia")) {
+                    cantidad++;
+                    sumatoria += celulares.get(i).getPrecio();
+                }
             }
+            dialog.setMessage(getResources().getString(R.string.mensajeReporte5) + ": " + (sumatoria / cantidad)).show();
         }
-
-        dialog.setMessage(getResources().getString(R.string.mensajeReporte5)+": "+(sumatoria/cantidad)).show();
     }
 }
