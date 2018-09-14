@@ -4,7 +4,7 @@
     <string name="titulo">Cellphone registration</string>
     <string name="marca">Brand</string>
     <string name="color">Color</string>
-    <string name="capacidad">RAM Capacity(GB)</string>
+    <string name="capacidad">RAM(GB)</string>
     <string name="sistOpe">Operative System</string>
     <string name="registrar">Register</string>
     <string name="limpiar">Clean</string>
@@ -20,6 +20,7 @@
     <string name="rojo">Red</string>
     <string name="dosGB">2</string>
     <string name="cuatroGB">4</string>
+    <string name="seisGB">6</string>
     <string name="android">Android</string>
     <string name="iOS">iOS</string>
     <string name="windows">Windows Phone</string>
@@ -31,4 +32,11 @@
     <string name="errColor">Please, select color</string>
     <string name="errCapacidad">Please, select RAM capacity</string>
     <string name="errSistOp">Please. select operative system</string>
+    <string name="precio">Price</string>
+    <string name="errVacio">Enter Price</string>
+    <string name="errCero">Enter value greater than zero</string>
+    <string name="reporteUno">Report 1</string>
+    <string name="reporteCuatro">Report 4</string>
+    <string name="reporteCinco">Report 5</string>
+    <string name="mensajeReporte4">Cellphone Quantity</string>
 </resources>

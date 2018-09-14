@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".Registrar" />
         <activity android:name=".Listar" />
-        <activity android:name=".Reportes"></activity>
+        <activity android:name=".Reportes" />
+        <activity android:name=".ReporteUno" />
+        <activity android:name=".ReporteCuatro" />
+        <activity android:name=".ReporteCinco"></activity>
     </application>
 
 </manifest>

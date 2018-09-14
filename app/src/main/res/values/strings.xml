@@ -3,14 +3,20 @@
     <string name="titulo">Registro de celulares</string>
     <string name="marca">Marca</string>
     <string name="color">Color</string>
-    <string name="capacidad">Capacidad de RAM(GB)</string>
+    <string name="capacidad">RAM(GB)</string>
     <string name="sistOpe">Sistema Operativo</string>
     <string name="precio">Precio</string>
+    <string name="errVacio">Ingrese un precio</string>
+    <string name="errCero">Ingrese un valor mayor a cero</string>
     <string name="registrar">Registrar</string>
     <string name="limpiar">Limpiar</string>
     <string name="mensaje">Celular registrado satisfactoriamente</string>
     <string name="reportes">Reportes</string>
     <string name="listar">Listar</string>
+
+    <string name="reporteUno">Reporte 1</string>
+    <string name="reporteCuatro">Reporte 4</string>
+    <string name="reporteCinco">Reporte 5</string>
 
     <string name="selecMarca">Seleccione una marca</string>
     <string name="errMarca">Por favor, selecciona una marca</string>
@@ -29,19 +35,25 @@
     <string name="errCapacidad">Por favor, selecciona la capacidad</string>
     <string name="dosGB">2</string>
     <string name="cuatroGB">4</string>
+    <string name="seisGB">6</string>
 
     <string name="selecSistOp">Seleccione sistema operativo</string>
     <string name="errSistOp">Por favor, selecciona el sistema operativo</string>
     <string name="android">Android</string>
     <string name="iOS">iOS</string>
     <string name="windows">Windows Phone</string>
+    <string name="mensajeReporte4">Cantidad de celulares</string>
 
     <string-array name="opciones">
         <item>@string/registrar</item>
         <item>@string/listar</item>
         <item>@string/reportes</item>
     </string-array>
-
+    <string-array name="opReportes">
+        <item>@string/reporteUno</item>
+        <item>@string/reporteCuatro</item>
+        <item>@string/reporteCinco</item>
+    </string-array>
     <string-array name="opMarcas">
         <item>@string/selecMarca</item>
         <item>@string/apple</item>
@@ -59,6 +71,7 @@
         <item>@string/selecCapacidad</item>
         <item>@string/dosGB</item>
         <item>@string/cuatroGB</item>
+        <item>@string/seisGB</item>
     </string-array>
     <string-array name="opSistemas">
         <item>@string/selecSistOp</item>

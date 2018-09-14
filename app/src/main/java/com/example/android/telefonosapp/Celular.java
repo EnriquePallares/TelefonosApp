@@ -1,6 +1,5 @@
 package com.example.android.telefonosapp;
 
-import android.content.Intent;
 
 public class Celular {
     private String marca;
