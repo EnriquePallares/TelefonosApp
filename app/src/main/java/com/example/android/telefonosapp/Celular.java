@@ -7,12 +7,14 @@ public class Celular {
     private String color;
     private int capacidad;
     private String sistOperativo;
+    private int precio;
 
-    public Celular(String marca, String color, int capacidad, String sistOperativo) {
+    public Celular(String marca, String color, int capacidad, String sistOperativo, int precio) {
         this.marca = marca;
         this.color = color;
         this.capacidad = capacidad;
         this.sistOperativo = sistOperativo;
+        this.precio = precio;
     }
 
     public String getMarca() {
@@ -45,6 +47,14 @@ public class Celular {
 
     public void setSistOperativo(String sistOperativo) {
         this.sistOperativo = sistOperativo;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
     }
 
     public void guardar(){
