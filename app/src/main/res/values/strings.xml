@@ -3,42 +3,65 @@
     <string name="titulo">Registro de celulares</string>
     <string name="marca">Marca</string>
     <string name="color">Color</string>
-    <string name="capacidad">Capacidad de RAM</string>
+    <string name="capacidad">Capacidad de RAM(GB)</string>
     <string name="sistOpe">Sistema Operativo</string>
+    <string name="precio">Precio</string>
     <string name="registrar">Registrar</string>
     <string name="limpiar">Limpiar</string>
     <string name="mensaje">Celular registrado satisfactoriamente</string>
+    <string name="reportes">Reportes</string>
+    <string name="listar">Listar</string>
 
+    <string name="selecMarca">Seleccione una marca</string>
+    <string name="errMarca">Por favor, selecciona una marca</string>
     <string name="samsung">Samsung</string>
     <string name="apple">Apple</string>
     <string name="nokia">Nokia</string>
     <string name="huawei">Huawei</string>
-    
+
+    <string name="selecColor">Seleccione un color</string>
+    <string name="errColor">Por favor, selecciona un color</string>
     <string name="negro">Negro</string>
     <string name="blanco">Blanco</string>
+    <string name="rojo">Rojo</string>
 
-    <string name="dosGB">2GB</string>
-    <string name="cuatroGB">4GB</string>
+    <string name="selecCapacidad">Seleccione una capacidad</string>
+    <string name="errCapacidad">Por favor, selecciona la capacidad</string>
+    <string name="dosGB">2</string>
+    <string name="cuatroGB">4</string>
 
+    <string name="selecSistOp">Seleccione sistema operativo</string>
+    <string name="errSistOp">Por favor, selecciona el sistema operativo</string>
     <string name="android">Android</string>
     <string name="iOS">iOS</string>
     <string name="windows">Windows Phone</string>
 
+    <string-array name="opciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportes</item>
+    </string-array>
+
     <string-array name="opMarcas">
+        <item>@string/selecMarca</item>
         <item>@string/apple</item>
         <item>@string/huawei</item>
         <item>@string/nokia</item>
         <item>@string/samsung</item>
     </string-array>
     <string-array name="opColores">
+        <item>@string/selecColor</item>
         <item>@string/blanco</item>
         <item>@string/negro</item>
+        <item>@string/rojo</item>
     </string-array>
     <string-array name="opCapacidades">
+        <item>@string/selecCapacidad</item>
         <item>@string/dosGB</item>
         <item>@string/cuatroGB</item>
     </string-array>
     <string-array name="opSistemas">
+        <item>@string/selecSistOp</item>
         <item>@string/android</item>
         <item>@string/iOS</item>
         <item>@string/windows</item>

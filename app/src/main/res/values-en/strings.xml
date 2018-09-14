@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TelefonosApp</string>
+    <string name="titulo">Cellphone registration</string>
+    <string name="marca">Brand</string>
+    <string name="color">Color</string>
+    <string name="capacidad">RAM Capacity(GB)</string>
+    <string name="sistOpe">Operative System</string>
+    <string name="registrar">Register</string>
+    <string name="limpiar">Clean</string>
+    <string name="mensaje">Cellphone registered successfully</string>
+    <string name="reportes">Reports</string>
+    <string name="listar">List</string>
+    <string name="samsung">Samsung</string>
+    <string name="apple">Apple</string>
+    <string name="nokia">Nokia</string>
+    <string name="huawei">Huawei</string>
+    <string name="negro">Black</string>
+    <string name="blanco">White</string>
+    <string name="rojo">Red</string>
+    <string name="dosGB">2</string>
+    <string name="cuatroGB">4</string>
+    <string name="android">Android</string>
+    <string name="iOS">iOS</string>
+    <string name="windows">Windows Phone</string>
+    <string name="selecMarca">Select brand</string>
+    <string name="selecColor">Select color</string>
+    <string name="selecCapacidad">Select RAM capacity</string>
+    <string name="selecSistOp">Select operative system</string>
+    <string name="errMarca">Please, select brand</string>
+    <string name="errColor">Please, select color</string>
+    <string name="errCapacidad">Please, select RAM capacity</string>
+    <string name="errSistOp">Please. select operative system</string>
+</resources>
